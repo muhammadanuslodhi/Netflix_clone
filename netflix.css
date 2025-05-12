@@ -1,0 +1,525 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/dae1f45f-c2c5-4a62-8d58-6e1b0c6b2d8e/efc43d3b-2127-43d7-bc04-ac237a750d82/PK-en-20240827-TRIFECTA-perspective_WEB_f3449b02-c3c7-4e45-99e9-981a4b14aecd_large.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    width: 100%;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.64;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+
+nav {
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 137px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 17px;
+    padding: 0 30px;
+
+}
+
+.hero> :nth-child(1) {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.hero> :nth-child(2) {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.hero> :nth-child(3) {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.seprtion {
+    height: 8px;
+    background-color: rgb(63, 63, 63);
+    width: 100%;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.btn-red {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 12px 24px;
+    font-size: 24px;
+
+}
+
+.main input {
+    border: 0.5px solid rgb(143, 139, 139);
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 0.25rem;
+    background-color: rgba(23, 23, 23, 0.2);
+    line-height: 24px;
+    color: white;
+    width: 23%;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem 0;
+
+}
+
+span {
+    text-align: center;
+}
+
+
+.section-image {
+    min-height: auto;
+    position: relative;
+
+}
+
+.section-image img {
+    position: relative;
+    z-index: 10;
+}
+
+.section-image video {
+    width: 477px;
+    position: absolute;
+    right: 78px;
+    top: 100px;
+
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :nth-child(1) {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.first>div :nth-child(2) {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.faq {
+    color: white;
+    padding: 4.5rem 0;
+}
+
+.faq h2 {
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.faqbox {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(45, 45, 45);
+    padding: 34px;
+    width: 80vw;
+    margin: 14px auto;
+}
+
+
+.faqbox:hover {
+    background-color: rgb(78, 75, 75);
+    color: rgb(255, 255, 255);
+    transition-duration: all 1s ease-out;
+}
+
+.acordians {
+    margin-top: 2.85rem
+}
+
+.acordians-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.acordians> :nth-child(1) {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.acordians input {
+    border: 0.5px solid rgb(143, 139, 139);
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 0.25rem;
+    background-color: rgba(23, 23, 23, 0.2);
+    line-height: 24px;
+    color: white;
+    width: 22.75rem;
+
+}
+
+footer {
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 14px;
+}
+
+.question {
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+}
+
+.footer a {
+    font-size: 14px;
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    margin-top: 21px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+@media screen and (max-width:1300px) {
+
+    footer{
+        max-width: 90vw;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+    }
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:600px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    nav{
+        max-width: 90vw;
+    }
+
+    nav img {
+        position: relative;
+        z-index: 10;
+        width: 89px;
+    }
+    
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .section-image {
+        width: 100%
+    }
+
+    .section-image video {
+        width: 73%;
+        right: 14%;
+        top: 21%;
+    }
+
+    .hero> :nth-child(1) {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .hero> :nth-child(2) {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    
+    }
+    
+    .hero> :nth-child(3) {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .hero-buttons  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        flex-direction: column;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-family: Ubuntu, sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+    }
+
+    .faqbox {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(45, 45, 45);
+        padding: 15px;
+        width: 80vw;
+        margin: 14px auto;
+    }
+
+    .xm-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .main input {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:700px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .main input {
+        width: 100%;
+    }
+
+    nav{
+        max-width: 90vw;
+    }
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .section-image {
+        width: 100%
+    }
+
+    .section-image video {
+        width: 73%;
+        right: 14%;
+        top: 21%;
+    }
+
+    .hero> :nth-child(1) {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .hero> :nth-child(2) {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    
+    }
+    
+    .hero> :nth-child(3) {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .hero-buttons  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        flex-direction: column;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-family: Ubuntu, sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+    }
+
+    .faqbox {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(45, 45, 45);
+        padding: 15px;
+        width: 80vw;
+        margin: 14px auto;
+    }
+
+    .xm-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+}
+@media screen and (max-width:860px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+    .hero-buttons input {
+        width: 61%;
+    }
+
+    nav{
+        max-width: 90vw;
+    }
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .section-image {
+        width: 100%
+    }
+
+    .section-image video {
+        width: 73%;
+        right: 14%;
+        top: 21%;
+    }
+
+    .hero> :nth-child(1) {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .hero> :nth-child(2) {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    
+    }
+    
+    .hero> :nth-child(3) {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .hero-buttons  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        flex-direction: column;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-family: Ubuntu, sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+    }
+
+    .faqbox {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(45, 45, 45);
+        padding: 15px;
+        width: 80vw;
+        margin: 14px auto;
+    }
+
+    .xm-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+}
